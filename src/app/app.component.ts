@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MovieComponent } from './movie/movie.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'movieReview';
+  
+    title = "w land" ;
+    description = " a bad mouvies";
+  
+    movies = [
+      {
+        title : "WarCraft" ,
+        description : "Orcs , Humans , Elves"
+      } ,
+      {
+        title : "Doni Darko" ,
+        description : "Ultimate universes , Imagination"
+      }
+    ]
 }
